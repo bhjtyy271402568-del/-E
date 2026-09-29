@@ -1,0 +1,45 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+        "files.associations": {
+            "stm32f4xx_hal_def.h": "c",
+            "bsp_usb.h": "c",
+            "usb_device.h": "c",
+            "usbd_cdc.h": "c",
+            "usbd_conf.h": "c",
+            "usbd_desc.h": "c",
+            "usbd_cdc_if.h": "c"
+        },
+        "VsCodeTaskButtons.showCounter": false,
+        "VsCodeTaskButtons.tasks": [
+            {
+                "label": "$(gear) Build",
+                "task": "build task",
+                "tooltip": "🛠️ Start the \"build\" task"
+            },
+            {
+                "label": "$(cloud-download) Download DAP",
+                "task": "download dap",
+                "tooltip": "📥 Start the \"download dap\" task"
+            },
+            {
+                "label": "$(cloud-download) Download JLink",
+                "task": "download jlink",
+                "tooltip": "📥 Start the \"download jlink\" task"
+            },
+            {
+                "label": "$(trash) Clean Build",
+                "task": "clean build",
+                "tooltip": "🧹 Clean build files and directories"
+            },
+            {
+                "label": "$(terminal) Log",
+                "task": "log",
+                "tooltip": "📜 Start the \"log\" task"
+            }
+	}
+}
